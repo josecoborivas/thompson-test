@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="./">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+
+<body onLoad="myOnLoad()">
+    <header>
+        <div class="encabezado">
+            <div class="title">
+                <span>Landing Page</span>
+            </div>
+            <div class="face">
+                <div class="text-face">SEGUÍ CONECTADO</div>
+                <img class="fb_icon" src="./assets/img/fb_icon.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <div class="slider">
+        <div><img class="img-hero1" src="./assets/img/hero1.png" alt=""></div>
+        <div><img class="img-hero2" src="./assets/img/hero2.png" alt=""></div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: false,
+                cssEase: 'linear',
+                prevArrow: '<img class="a-left control-c prev slick-prev" src="./assets/img/arrow-left.png" alt="">',
+                nextArrow: '<img class="a-right control-c next slick-next" src="./assets/img/arrow-right.png" alt="">'
+            });
+        });
+    </script>
+
+
+    <div class="title_articles">
+        Últimos Artículos
+    </div>
+
+    <div class="grid">
+        <div class="nested-grid">
+            <div class="header-grid"></div>
+            <div class="title-grid">
+                <h2>Lorem, ipsum dolor</h2>
+            </div>
+            <div class="content-grid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste cum in
+                tenetur sed doloremque laboriosam, eaque nisi deleniti facilis sint quo ullam obcaecati. Cum magni iure
+                maiores sapiente repellat.</div>
+        </div>
+
+        <div class="nested-grid">
+            <div class="header-grid"></div>
+            <div class="title-grid">
+                <h2>Lorem, ipsum dolor</h2>
+            </div>
+            <div class="content-grid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste cum in
+                tenetur sed doloremque laboriosam, eaque nisi deleniti facilis sint quo ullam obcaecati. Cum magni iure
+                maiores sapiente repellat.</div>
+        </div>
+
+        <div class="nested-grid">
+            <div class="header-grid"></div>
+            <div class="title-grid">
+                <h2>Lorem, ipsum dolor</h2>
+            </div>
+            <div class="content-grid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste cum in
+                tenetur sed doloremque laboriosam, eaque nisi deleniti facilis sint quo ullam obcaecati. Cum magni iure
+                maiores sapiente repellat.</div>
+        </div>
+
+        <div class="nested-grid">
+            <div class="header-grid"></div>
+            <div class="title-grid">
+                <h2>Lorem, ipsum dolor</h2>
+            </div>
+            <div class="content-grid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste cum in
+                tenetur sed doloremque laboriosam, eaque nisi deleniti facilis sint quo ullam obcaecati. Cum magni iure
+                maiores sapiente repellat.</div>
+        </div>
+
+        <div class="nested-grid">
+            <div class="header-grid"></div>
+            <div class="title-grid">
+                <h2>Lorem, ipsum dolor</h2>
+            </div>
+            <div class="content-grid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste cum in
+                tenetur sed doloremque laboriosam, eaque nisi deleniti facilis sint quo ullam obcaecati. Cum magni iure
+                maiores sapiente repellat.</div>
+        </div>
+
+        <div class="nested-grid">
+            <div class="header-grid"></div>
+            <div class="title-grid">
+                <h2>Lorem, ipsum dolor</h2>
+            </div>
+            <div class="content-grid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste cum in
+                tenetur sed doloremque laboriosam, eaque nisi deleniti facilis sint quo ullam obcaecati. Cum magni iure
+                maiores sapiente repellat.</div>
+        </div>
+
+        <div class="nested-grid">
+            <div class="header-grid"></div>
+            <div class="title-grid">
+                <h2>Lorem, ipsum dolor</h2>
+            </div>
+            <div class="content-grid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste cum in
+                tenetur sed doloremque laboriosam, eaque nisi deleniti facilis sint quo ullam obcaecati. Cum magni iure
+                maiores sapiente repellat.</div>
+        </div>
+
+        <div class="nested-grid">
+            <div class="header-grid"></div>
+            <div class="title-grid">
+                <h2>Lorem, ipsum dolor</h2>
+            </div>
+            <div class="content-grid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste cum in
+                tenetur sed doloremque laboriosam, eaque nisi deleniti facilis sint quo ullam obcaecati. Cum magni iure
+                maiores sapiente repellat.</div>
+        </div>
+    </div>
+
+
+    <div class="title-form">Formulario</div>
+    <hr>
+    <main>
+        <form action="" class="formulario" id="formulario">
+            <!-- Grupo: Nombre -->
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="nombre" class="formulario__label">Nombre</label>
+                <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Roberto">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                <!-- <div class="formulario__grupo-input">
+                </div> -->
+                <p class="formulario__input-error">El nombre tiene que tener ser mayor a 2 digitos.</p>
+            </div>
+
+            <!-- Grupo: Apellido -->
+            <div class="formulario__grupo" id="grupo__apellido">
+                <label for="apellido" class="formulario__label">Apellido</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="Gómez">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">El Apellido tiene que tener ser mayor a 2 digitos.</p>
+            </div>
+
+            <!-- Grupo: Correo Electronico -->
+            <div class="formulario__grupo" id="grupo__correo">
+                <label for="correo" class="formulario__label">Correo Electrónico</label>
+                <div class="formulario__grupo-input">
+                    <input type="email" class="formulario__input" name="correo" id="correo"
+                        placeholder="correo@correo.com">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">El correo ingresado no es válido.</p>
+            </div>
+
+            <!-- Grupo: Departamento -->
+            <div class="formulario__grupo" id="grupo__departamento">
+                <label for="departamento" class="formulario__label">Departamento</label>
+                <div class="formulario__grupo-input">
+                    <select name="departamento" id="departamento" onchange="cargarLocalidades()">
+                        <option value="">Seleccione un Departamento...</option>
+                    </select>
+                </div>
+                <p class="formulario__input-error">Debe seleccionar un departamento</p>
+            </div>
+
+            <!-- Grupo: Localidad -->
+            <div class="formulario__grupo" id="grupo__localidad">
+                <label for="localidad" class="formulario__label">Localidad</label>
+                <div class="formulario__grupo-input">
+                    <select name="localidad" id="localidad" onchange="selectLocalidad()">
+                        <option value="">Seleccione una Localidad...</option>
+                    </select>
+                </div>
+                <p class="formulario__input-error">Debe seleccionar una localidad</p>
+            </div>
+
+            <!-- Grupo: CI -->
+            <div class="formulario__grupo" id="grupo__ci">
+                <label for="ci" class="formulario__label">C.I.</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="ci" id="ci" placeholder="11111111">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">La ci no es válida, debe tener entre 7 y 8 digitos.</p>
+            </div>
+
+            <!-- Grupo: Bases y Condiciones -->
+            <div class="formulario__grupo" id="grupo__terminos">
+                <label class="formulario__label">
+                    <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                    Acepto las bases y Condiciones
+                </label>
+            </div>
+
+            <div class="formulario__grupo formulario__grupo-btn-enviar">
+                <button type="submit" class="formulario__btn">Enviar</button>
+                <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+            </div>
+
+        </form>
+    </main>
+
+    <script id="logica" type="text/javascript" src="./js/logica.js"></script>
+    <script type="text/javascript" src="./js/datos.js"></script>
+</body>
+
+</html>
